@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/Activity_Lifecycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Activity_Lifecycle"
+        android:onClick="Activity_Lifecycle"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/Image_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Activity_Lifecycle"
+        android:layout_marginTop="17dp"
+        android:text="Image_change"
+        android:onClick="Image_change"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/Image_array"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Image_change"
+        android:layout_marginTop="17dp"
+        android:text="Image_array"
+        android:onClick="Image_array"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/gopage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Image_array"
+        android:layout_marginTop="17dp"
+        android:text="上一頁"
+        android:onClick="gopage1"
+        tools:ignore="OnClick" />
+</RelativeLayout>
