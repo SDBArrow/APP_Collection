@@ -55,7 +55,7 @@ public class TRL_Redeem_Winning extends AppCompatActivity {
                 }
             }
             mWinning.setText("再接再厲!");
-        }
+        }//
     }
     public void reinput(View v){
         Intent intent = new Intent(this, TRL_Redeem_numbers.class);
