@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity_Lifecycle2"></activity>
+        <activity android:name=".TRL_Redeem_Winning"></activity>
+        <activity android:name=".TRL_Redeem_numbers" />
+        <activity android:name=".Activity_Lifecycle2" />
         <activity android:name=".Image_array" />
         <activity android:name=".Image_change" />
         <activity android:name=".MainActivity2" />

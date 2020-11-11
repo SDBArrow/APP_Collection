@@ -7,7 +7,7 @@
     tools:context=".guess_digital">
 
     <TextView
-        android:id="@+id/TV_price"
+        android:id="@+id/TV_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
