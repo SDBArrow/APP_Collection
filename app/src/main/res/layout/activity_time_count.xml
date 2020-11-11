@@ -82,6 +82,15 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/btn_count"
         android:text="date：" />
+    <TextView
+        android:id="@+id/TV_leapyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/TV_date"
+        android:text="閏年：" />
 
     <EditText
         android:id="@+id/ET_year"

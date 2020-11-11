@@ -10,12 +10,19 @@
         android:id="@+id/btn_count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="100dp"
         android:text="count" />
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="100dp"
+        android:text="change" />
 
     <TextView
-        android:id="@+id/TV_Celsius"
+        android:id="@+id/TV_befor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -24,7 +31,7 @@
         android:text="Celsius：" />
 
     <TextView
-        android:id="@+id/TV_Fahrenheit"
+        android:id="@+id/TV_after"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -34,7 +41,7 @@
         android:text="Fahrenheit：" />
 
     <EditText
-        android:id="@+id/ET_Celsius"
+        android:id="@+id/ET_befor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

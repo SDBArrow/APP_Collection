@@ -21,11 +21,20 @@ public class time_count extends AppCompatActivity {
         final EditText mminute = findViewById(R.id.ET_minute);
         final EditText msecond = findViewById(R.id.ET_second);
         final TextView mdate = findViewById(R.id.TV_date);
+        final TextView mleapyear = findViewById(R.id.TV_leapyear);
         Button mcount = findViewById(R.id.btn_count);
         mcount.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String bmi = myear.getText().toString()+"/"+mmonth.getText().toString()+"/"+mday.getText().toString()+"  "+mhour.getText().toString()+":"+mminute.getText().toString()+":"+msecond.getText().toString();
                 mdate.setText("BMI："+bmi);
+                if (Integer.parseInt(myear.getText().toString()) % 4 == 0)
+                    mleapyear.setText("閏年：Yes");
+                else if (Integer.parseInt(myear.getText().toString()) % 100 == 0)
+                    mleapyear.setText("閏年：Yes");
+                else if (Integer.parseInt(myear.getText().toString()) % 400 == 0)
+                    mleapyear.setText("閏年：Yes");
+                else
+                    mleapyear.setText("閏年：No");
             }
         });
     }
