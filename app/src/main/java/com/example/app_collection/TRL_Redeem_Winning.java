@@ -48,13 +48,13 @@ public class TRL_Redeem_Winning extends AppCompatActivity {
         }else if (Integer.parseInt(input.substring(5))==Integer.parseInt(winning[chose][2].substring(5)) || Integer.parseInt(input.substring(5))==Integer.parseInt(winning[chose][3].substring(5)) || Integer.parseInt(input.substring(5))==Integer.parseInt(winning[chose][4].substring(5))) {
             mWinning.setText("中獎金額：2百元");
         }else{
+            mWinning.setText("再接再厲!");
             for(int i = 0 ; i < winning[chose].length-5; i++){
                 if(Integer.parseInt(input.substring(5))==Integer.parseInt(winning[chose][i+5])){
                     mWinning.setText("中獎金額：2百元");
                     break;
                 }
             }
-            mWinning.setText("再接再厲!");
         }
     }
     public void reinput(View v){
